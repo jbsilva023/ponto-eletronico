@@ -1,0 +1,20 @@
+{
+    "name": "jbsilva/mfw",
+    "description": "Micro framework jbsilva",
+    "type": "project",
+    "require": {
+        "jenssegers/blade": "^1.2",
+        "vlucas/phpdotenv": "^3.6",
+        "twbs/bootstrap": "4.0.0",
+        "components/jquery": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "JbSilva\\": "src",
+            "App\\": "app"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    }
+}
